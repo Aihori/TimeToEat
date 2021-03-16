@@ -1,0 +1,58 @@
+
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TimetoEat!</title>
+		<style>
+			body {
+				width: 600px;
+				margin-right: auto;
+				margin-left: auto;
+				padding: 10px;
+			}
+			#header {
+				text-align: center;
+				color: #8D71B4;
+			}
+			.form-row {
+				margin: 15px 0px;
+			}
+			.left-column {
+				width: 300px;
+				float: left;
+			}
+			button {
+				background-color: #8D71B4;
+				color: white;
+				padding: 10px 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Signup for TimeToEat</h1>
+		</div>
+
+		<form action="confirmation_page.html">
+			<div class="form-row">
+				<div class="left-column">
+					<label for="name-id">Name:</label>
+				</div> <!-- .left-column --> 
+				<input type="text" id="name-id" placeholder="John">
+			</div> <!-- .form-row --> 
+
+			<div class="form-row">
+				<div class="left-column">
+					<label for="email-id">Phone Number:</label>
+				</div> <!-- .left-column --> 
+				<input type="phonenumber" id="phonenumber-id" placeholder="+1(123) 456-7890">
+			</div> <!-- .form-row -->
+
+			<div class="form-row">
+				<button type="submit">Submit</button>
+				<button type="reset">Clear</button>
+			</div> <!-- .form-row --> 
+		</form>
+	</body>
+</html>
