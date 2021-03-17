@@ -16,3 +16,4 @@ async function handle(event){
     });
 
     var data = await resp.json();
+});
