@@ -14,6 +14,5 @@ async function handle(event){
         method: "POST",
         body: JSON.stringify({name, phone})
     });
-
     var data = await resp.json();
-});
+};
