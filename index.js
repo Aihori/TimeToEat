@@ -15,7 +15,8 @@ async function handle(event){
         body: JSON.stringify({name, phone})
     });
     var data = await resp.json();
+    console.log(name);
+    console.log(phone);
 };
 
-console.log(name)
-console.log(phone)
+
