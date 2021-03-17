@@ -16,3 +16,6 @@ async function handle(event){
     });
     var data = await resp.json();
 };
+
+console.log(name)
+console.log(phone)
