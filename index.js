@@ -8,7 +8,7 @@ async function handle(event){
     var name = payload.get('name');
     var phone = payload.get('phone');
 
-    var functionUrl = "https://timetoeat.azurewebsites.net/api/HttpTrigger1?code=zLD/jBqIBGhLEk1wP5aeJgexJtPXFefUHasxWp7pjTNPvHt10iVnag=="
+    var functionUrl = "https://timetoeat.azurewebsites.net/api/HttpTrigger1?code=izHNXrlCAI9sB5lziYwRB4eHYNsx9UZNQja8x/AbVDQuxyqXXEtwvg=="
     
     const resp = await fetch(functionUrl, {
         method: "POST",
