@@ -12,11 +12,7 @@ async function handle(event){
     
     const resp = await fetch(functionUrl, {
         method: "POST",
-        body: JSON.stringify({name, phone}),
-        headers: {
-        'Access-Control-Allow-Origin' : '*',
-        'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-    }
+        body: JSON.stringify({name, phone})
     });
     var data = await resp.json();
 };
