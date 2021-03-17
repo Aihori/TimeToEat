@@ -3,14 +3,19 @@ async function handle(event){
     $("#emotion").html("Loading...");
     event.preventDefault();
 
-    var myForm = document.getElementById("image-form");
+    var myForm = document.getElementById("formid");
     var payload = new FormData(myForm);
+    var name = payload.get('name');
+    var phone = payload.get('phone');
 
     var functionUrl = "https://timetoeat.azurewebsites.net/api/HttpTrigger1?code=zLD/jBqIBGhLEk1wP5aeJgexJtPXFefUHasxWp7pjTNPvHt10iVnag=="
-
+    
     const resp = await fetch(functionUrl, {
         method: "POST",
-        body: payload,
+        body: JSON.stringify({name, phone}),
+        headers: {
+            'Content-Type: 'application/json'
+        },
     });
 
     var data = await resp.json();
