@@ -4,6 +4,8 @@
 ## Who am I?
 My name is Jason Wu and at this moment, I'm a Sophmore at the University of Rhode Island studying CS. I love food, lifting weights, skincare, video games, honestly anything you can think of, I like!
 
+![self](assets/self.jpg)
+
 Because of lockdown, I haven't been outside to do anything for the past 10 months. Seriously. Nothing. No resturants, gym, not even boba. I love to eat and workout, but not being to do the ladder during quarentine, I've gained weight and have been eating late at night as well. I would order food just to keep my sanity alive if I'm at home all day. 
 
 But I am determined to go back to my old self! I want to control what I eat and go back to exercising!
