@@ -1,6 +1,5 @@
 async function handle(event){
     console.log("A form has arrived!");
-    $("#emotion").html("Loading...");
     event.preventDefault();
 
     var myForm = document.getElementById("formid");
