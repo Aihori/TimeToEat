@@ -1,6 +1,6 @@
 async function handle(event){
     console.log("A form has arrived!");
-    event.preventDefault();
+    //event.preventDefault();
 
     var myForm = document.getElementById("formid");
     var payload = new FormData(myForm);
